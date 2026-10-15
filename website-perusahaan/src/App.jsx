@@ -1,5 +1,17 @@
-function App(){
-  return <h1 className="text-6xl font-bold italic" >Hello World</h1>
-  }
+import { Routes, Route } from 'react-router-dom';
+import Navbar from "./components/navbar";
+import Home from "./pages/Home";
 
-  export default App;
+
+function App() {
+    return (
+        <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home/>} />
+      </Routes>
+      </>
+    );
+}
+
+export default App;
