@@ -1,7 +1,7 @@
-function beranda() {
+function Home() {
   return (
-    <div>beranda</div>
+    <div>Home</div>
   )
 }
 
-export default beranda
+export default Home;
