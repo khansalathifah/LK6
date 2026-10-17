@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+/* Color palette */
+@theme {
+  --color-snow: #F6F6F6;
+  --color-sky: #D6E4F0;
+  --color-brand: #1E56A0;
+  --color-navy: #163172;
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-snow);
+  color: var(--color-navy);
+}
