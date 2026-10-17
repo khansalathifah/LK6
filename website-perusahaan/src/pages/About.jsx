@@ -1,15 +1,15 @@
 import {Link} from "react-router-dom"
 
-function about() {
-  return (
-    <div>
+  const About = () => {
+    return (
+      <div>
+        <h1>Hallo</h1>
+        <Link to ="/Home">KE HOME</Link>
 
-       <Link to ="/Home">KE HOME</Link>
+      </div>
 
-    </div>
+    
+    )
+  }
 
-   
-  )
-}
-
-export default about
+export default About
