@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
-/* Color palette */
+/* Palet warna utama - ubah nilai di bawah ini untuk mengganti seluruh tema */
 @theme {
-  --color-snow: #F6F6F6;
-  --color-sky: #D6E4F0;
-  --color-brand: #1E56A0;
-  --color-navy: #163172;
+  --color-shell: #FBF9FA; /* Latar terang / putih lembut */
+  --color-brand: #FD0054; /* Merah utama / aksen */
+  --color-brand-deep: #A80038; /* Merah tua / hover */
+  --color-ink: #2B2024; /* Teks gelap / latar gelap */
   --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -15,6 +15,7 @@ html {
 
 body {
   margin: 0;
-  background-color: var(--color-snow);
-  color: var(--color-navy);
+  background-color: var(--color-shell);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
 }
