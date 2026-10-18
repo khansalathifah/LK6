@@ -17,11 +17,8 @@ function Home() {
           </div>
 
           <Link
-            to="/kontak"
-            className="rounded-full bg-brand px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-navy"
-          >
-            Hubungi Kami
-          </Link>
+            to="/Contacts"
+            className="rounded-full bg-brand px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-navy">Hubungi Kami</Link>
         </div>
       </nav>
       <main>
@@ -35,25 +32,6 @@ function Home() {
               </Link>
               <p className="mt-4 max-w-sm leading-7 text-white/70">
                 Menghadirkan cita rasa istimewa melalui makanan berkualitas.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="font-bold">Navigasi</h3>
-              <ul className="mt-4 space-y-3 text-white/70">
-                <li><a href="#home" className="hover:text-sky">Home</a></li>
-                <li><a href="#tentang" className="hover:text-sky">Tentang Kami</a></li>
-                <li><a href="#produk" className="hover:text-sky">Produk</a></li>
-                <li><a href="#keunggulan" className="hover:text-sky">Keunggulan</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-bold">Hubungi Kami</h3>
-              <p className="mt-4 leading-7 text-white/70">
-                Email: halo@rasanusantara.com<br />
-                Telepon: +62 812-0000-0000<br />
-                Bandung, Indonesia
               </p>
             </div>
           </div>
