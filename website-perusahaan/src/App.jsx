@@ -1,38 +1,30 @@
-import { useEffect } from 'react'
-import { Routes, Route, useLocation } from 'react-router-dom'
-import Navbar from "components/Navbar"
-import Footer from "./components/Footer"
-import Home from "/pages/Home"
-import About from "/pages/About"
-import Services from "/pages/Services"
-import Galeri from "/pages/Galeri"
-import Contacs from "/pages/Contacs"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+import About from './src/pages/About'
+import Contact from './src/pages/Contacts'
+import Galeri from './src/pages/Galeri'
+import Home from './src/pages/Home'
+import Services from './src/pages/Services'
 
-
-function ScrollToTop() {
-  const { pathname } = useLocation()
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [pathname])
-  return null
-}
-
-export default function App() {
+function App() {
   return (
-    <div className="flex min-h-screen flex-col">
-      <ScrollToTop />
-      <Navbar />
-      <main className="flex-1">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/tentang-kami" element={<About />} />
-          <Route path="/layanan" element={<Services />} />
-          <Route path="/portofolio" element={<Galeri />} />
-          <Route path="/contacs" element={<Contacs />} />
-          <Route path="*" element={<Home />} />
-        </Routes>
-      </main>
-      <Footer />
-    </div>
-  )
+    <Router>
+      <div className="flex flex-col min-h-screen bg-white">
+        <Navbar />
+        <main className="flex grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/galeri" element={<Galeri />} />
+            <Route path="/contacts" element={<Contact />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
+  );
 }
+
+export default App;
