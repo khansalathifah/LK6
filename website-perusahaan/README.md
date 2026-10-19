@@ -21,6 +21,28 @@ Isi dari website berupa kumpulan destinasi wisata populer di Jepang hingga keret
 2. Buka file pada vscode
 3. Instal tailwind (jika belum) dengan sintaks npm install tailwindcss @tailwind/vite
 4. Instal react-router-dom dengan sintaks npm install react-router-dom
+5. Jalankan website dengan sintaks "npm run dev" lalu buka http://localhost:5173/
+6. Jika ingin distop tekan CTRL + C
 
 
 ## SCREENSHOT HALAMAN
+
+### Home
+![home](screenshot/ss-home.png)
+
+### About
+![about](screenshot/ss-tentangkami.png)
+
+
+### Services
+![home](screenshot/ss-produk.png)
+
+
+### Galeri
+![home](screenshot/ss-dokum.png)
+
+
+### Contact
+![home](screenshot/ss-kontak.png)
+
+
