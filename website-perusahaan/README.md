@@ -28,21 +28,21 @@ Isi dari website berupa kumpulan destinasi wisata populer di Jepang hingga keret
 ## SCREENSHOT HALAMAN
 
 ### Home
-![home](screenshot/ss-home.png)
+![home](public/screenshot/ss-home.png)
 
 ### About
-![about](screenshot/ss-tentangkami.png)
+![about](public/screenshot/ss-tentangkami.png)
 
 
 ### Services
-![home](screenshot/ss-produk.png)
+![home](public/screenshot/ss-produk.png)
 
 
 ### Galeri
-![home](screenshot/ss-dokum.png)
+![home](public/screenshot/ss-dokum.png)
 
 
 ### Contact
-![home](screenshot/ss-kontak.png)
+![home](public/screenshot/ss-kontak.png)
 
 
