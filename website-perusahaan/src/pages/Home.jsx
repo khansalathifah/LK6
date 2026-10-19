@@ -148,7 +148,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Produk */}
       <section id="produk" className="scroll-mt-24 bg-shell py-20">
         <div className="mx-auto max-w-7xl px-5 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">

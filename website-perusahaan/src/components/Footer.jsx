@@ -17,7 +17,7 @@ function Footer() {
             J-Trip<span className="text-brand">Mate.</span>
           </Link>
           <p className="mt-4 max-w-sm leading-7 text-white/85">
-            Mengingatkan kepada Anda semua akan nikmatnya makanan tradisional khas Indonesia
+            Memudahkan alokasi wisata sesuai budget dan waktu yang sesuai. 
           </p>
         </div>
 

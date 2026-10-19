@@ -199,12 +199,12 @@ function Contacts() {
               </a>
 
               <a
-                href="https://www.tiktok.com/"
+                href="https://web.whatsapp.com"
                 target="_blank"
                 rel="noreferrer"
                 className="rounded-full border border-brand/20 px-5 py-2.5 text-sm font-semibold text-brand transition hover:bg-brand hover:text-white"
               >
-                TikTok
+                WhatsApp
               </a>
 
               <a
@@ -216,11 +216,6 @@ function Contacts() {
                 Facebook
               </a>
             </div>
-
-            <p className="mt-5 text-xs italic text-ink/45">
-              *Tautan media sosial masih berupa contoh dan dapat diganti
-              dengan akun resmi J-Trip.
-            </p>
           </div>
         </div>
       </section>
