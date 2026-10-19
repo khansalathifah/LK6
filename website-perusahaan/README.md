@@ -1,9 +1,9 @@
 # J-TRIP MATE
 
 ## IDENTITAS
- Nama    : Khansa Lathifah Audrya
- NIM     : 2505579
- Kelas   : Pendidikan Ilmu Komputer - 3C
+- Nama    : Khansa Lathifah Audrya
+- NIM     : 2505579
+- Kelas   : Pendidikan Ilmu Komputer - 3C
 
 
 ## DESKRIPSI WEBSITE
