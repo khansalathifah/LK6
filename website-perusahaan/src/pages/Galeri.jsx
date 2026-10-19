@@ -193,7 +193,8 @@ const kegiatan = [
         </div>
       </section>
 
-``      <section className="px-5 py-16 text-center md:py-20">
+`
+`      <section className="px-5 py-16 text-center md:py-20">
         <h2 className="text-3xl font-extrabold sm:text-4xl">
           Rencanakan Perjalanan Anda
         </h2>
