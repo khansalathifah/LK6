@@ -3,10 +3,9 @@ import { Link } from 'react-router-dom'
 
 const tautan = [
   { label: 'Home', to: '/' },
-  { label: 'Tentang Kami', to: '/#tentang' },
-  { label: 'Produk', to: '/#produk' },
-  { label: 'Keunggulan', to: '/#keunggulan' },
-  { label: 'Galeri', to: '/galeri' },
+  { label: 'Tentang Kami', to: '../About' },
+  { label: 'Produk', to: '../Services' },
+  { label: 'Galeri', to: '../Galeri' },
 ]
 
 function Navbar() {
