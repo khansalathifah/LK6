@@ -45,4 +45,7 @@ Isi dari website berupa kumpulan destinasi wisata populer di Jepang hingga keret
 ### Contact
 ![home](public/screenshot/ss-kontak.png)
 
+### Navbar dan Footer
+![home](public/screenshot/ss-nav-footer.png)
+
 
