@@ -3,7 +3,7 @@
 ## IDENTITAS
 Nama    : Khansa Lathifah Audrya
 NIM     : 2505579
-Kelas   : PILKOM - 3C
+Kelas   : Pendidikan Ilmu Komputer - 3C
 
 
 ## DESKRIPSI WEBSITE
